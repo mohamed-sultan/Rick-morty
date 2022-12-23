@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card snapshot testing renders correctly 1`] = `
+<div
+  className="css-19i246o"
+>
+  <img
+    alt="character"
+    className="css-y3148r"
+    data-nimg="1"
+    decoding="async"
+    height={300}
+    onError={[Function]}
+    onLoad={[Function]}
+    src="/_next/image?url=%2Fhdflix.png&w=640&q=75"
+    srcSet="/_next/image?url=%2Fhdflix.png&w=384&q=75 1x, /_next/image?url=%2Fhdflix.png&w=640&q=75 2x"
+    style={
+      {
+        "color": "transparent",
+      }
+    }
+    width={300}
+  />
+  <div>
+    <div
+      className="css-qs9xs7"
+    >
+      string
+    </div>
+    <div
+      className="css-xu5fs5"
+    >
+      string
+       - 
+      string
+    </div>
+    <div
+      className="css-1msjh1x"
+    >
+      string
+    </div>
+  </div>
+</div>
+`;

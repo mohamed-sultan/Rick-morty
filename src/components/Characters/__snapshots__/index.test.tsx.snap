@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Characters snapshot testing renders correctly 1`] = `
+<div>
+  <div
+    className="MuiBox-root css-0"
+    data-testid="element"
+  >
+    <div>
+      <div
+        className="css-1e0kmke"
+      >
+        <span
+          className="css-1nedsoq"
+        >
+          Rick and Morty 
+        </span>
+        <button
+          aria-label="dark-light-icon"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-9sdrmz-MuiSvgIcon-root"
+            data-testid="BedtimeIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12.34 2.02C6.59 1.82 2 6.42 2 12c0 5.52 4.48 10 10 10 3.71 0 6.93-2.02 8.66-5.02-7.51-.25-12.09-8.43-8.32-14.96z"
+            />
+          </svg>
+        </button>
+      </div>
+      <main
+        style={{}}
+      >
+        <h1
+          className="css-jh9j72"
+        >
+          Rick and Morty characters
+        </h1>
+        <div
+          className="css-jlwmml"
+        />
+        <footer
+          className="css-1ezr195"
+        >
+          <a
+            className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1cmksfb-MuiTypography-root-MuiLink-root"
+            href="/2"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onTouchStart={[Function]}
+          >
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-qt782h-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              Next Page
+            </button>
+          </a>
+        </footer>
+      </main>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Characters snapshot testing renders correctly with data 1`] = `
+<div>
+  <div
+    className="MuiBox-root css-0"
+    data-testid="element"
+  >
+    <div>
+      <div
+        className="css-1e0kmke"
+      >
+        <span
+          className="css-1nedsoq"
+        >
+          Rick and Morty 
+        </span>
+        <button
+          aria-label="dark-light-icon"
+          className="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-9sdrmz-MuiSvgIcon-root"
+            data-testid="BedtimeIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12.34 2.02C6.59 1.82 2 6.42 2 12c0 5.52 4.48 10 10 10 3.71 0 6.93-2.02 8.66-5.02-7.51-.25-12.09-8.43-8.32-14.96z"
+            />
+          </svg>
+          <span
+            className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <main
+        style={{}}
+      >
+        <h1
+          className="css-jh9j72"
+        >
+          Rick and Morty characters
+        </h1>
+        <div
+          className="css-jlwmml"
+        >
+          <div
+            className="css-19i246o"
+          >
+            <img
+              alt="character"
+              className="css-y3148r"
+              data-nimg="1"
+              decoding="async"
+              height={300}
+              onError={[Function]}
+              onLoad={[Function]}
+              src="/_next/image?url=%2Fhdflix.png&w=640&q=75"
+              srcSet="/_next/image?url=%2Fhdflix.png&w=384&q=75 1x, /_next/image?url=%2Fhdflix.png&w=640&q=75 2x"
+              style={
+                {
+                  "color": "transparent",
+                }
+              }
+              width={300}
+            />
+            <div>
+              <div
+                className="css-qs9xs7"
+              >
+                name
+              </div>
+              <div
+                className="css-xu5fs5"
+              >
+                 - 
+              </div>
+              <div
+                className="css-1msjh1x"
+              />
+            </div>
+          </div>
+        </div>
+        <footer
+          className="css-1ezr195"
+        >
+          <a
+            className="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-1cmksfb-MuiTypography-root-MuiLink-root"
+            href="/2"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onMouseEnter={[Function]}
+            onTouchStart={[Function]}
+          >
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-qt782h-MuiButtonBase-root-MuiButton-root"
+              disabled={false}
+              onBlur={[Function]}
+              onContextMenu={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              Next Page
+            </button>
+          </a>
+        </footer>
+      </main>
+    </div>
+  </div>
+</div>
+`;

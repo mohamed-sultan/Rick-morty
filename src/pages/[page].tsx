@@ -13,7 +13,7 @@ export const getStaticPaths = async () => {
 
   const numberOfPages = data?.characters.info.pages + 1;
 
-  const arrayOfPages = [...Array(numberOfPages).keys()];
+  const arrayOfPages = [...Array.from(Array(numberOfPages).keys())];
 
   const paths = arrayOfPages.map((page) => ({
     params: { page: `${page}` },
@@ -25,7 +25,7 @@ export const getStaticPaths = async () => {
   };
 };
 
-export const getStaticProps = async ({ params: { page } }) => {
+export const getStaticProps = async ({ params: { page = 0 } }) => {
   const { data } = await client.query({
     query: GET_ALL_CHARACTERS,
     variables: { page: Number(page) },

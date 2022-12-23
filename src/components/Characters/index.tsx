@@ -42,11 +42,11 @@ const desktopStyle = {
   backgroundColor: "green",
 };
 const mainStyles = {
-  left: "300px",
-  top: 100,
   position: "absolute",
+  left: "300px",
+  top: "100px",
+  right: "0px",
   zIndex: 1,
-  right: 0,
 };
 
 const Characters = ({ characters }: charactersProps) => {
@@ -59,17 +59,17 @@ const Characters = ({ characters }: charactersProps) => {
         <SideBar />
         <div>
           <Header />
-          <main style={!matches ? {} : mainStyles}>
+          <Box sx={!matches ? {} : mainStyles}>
             <CharactersHeadLine>Rick and Morty characters</CharactersHeadLine>
             <Wrapper>
               {characters?.results.map(
-                (character: characterProps, i: number) => (
+                (character: characterProps | any, i: number) => (
                   <Card character={character} key={i} />
                 )
               )}
             </Wrapper>
             <Footer />
-          </main>
+          </Box>
         </div>
       </Box>
     </div>

@@ -17,6 +17,7 @@ export const darkSlice = createSlice({
       state.dark = action.payload;
     },
     extraReducers: {
+      // @ts-ignore:next-line
       [HYDRATE]: (state: any, { payload }: any) => {
         /* istanbul ignore next */
         return {

@@ -4,7 +4,7 @@ import Button from "./index";
 
 describe("Button snapshot testing", () => {
   it("renders correctly", () => {
-    const tree = TestRenderer.create(<Button />).toJSON();
+    const tree = TestRenderer.create(<Button text="" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

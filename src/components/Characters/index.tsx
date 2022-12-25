@@ -48,7 +48,6 @@ const mainStyles = {
   right: "0px",
   zIndex: 1,
 };
-
 const Characters = ({ characters }: charactersProps) => {
   const theme = useTheme();
   const matches = useMediaQuery(theme.breakpoints.up("lg"));

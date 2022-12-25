@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1671786490651" clover="3.2.0">
-  <project timestamp="1671786490651" name="All files">
+<coverage generated="1671917804342" clover="3.2.0">
+  <project timestamp="1671917804342" name="All files">
     <metrics statements="88" coveredstatements="88" conditionals="10" coveredconditionals="10" methods="45" coveredmethods="43" elements="143" coveredelements="141" complexity="0" loc="88" ncloc="88" packages="8" files="9" classes="9"/>
     <package name="components.Button">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
@@ -118,11 +118,11 @@
         <line num="5" count="3" type="stmt"/>
         <line num="12" count="3" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
-        <line num="31" count="3" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="34" count="6" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
         <line num="35" count="6" type="stmt"/>
-        <line num="37" count="3" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
       </file>
     </package>
     <package name="utils">

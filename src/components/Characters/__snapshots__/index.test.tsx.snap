@@ -48,8 +48,8 @@ exports[`Characters snapshot testing renders correctly 1`] = `
           </svg>
         </button>
       </div>
-      <main
-        style={{}}
+      <div
+        className="MuiBox-root css-0"
       >
         <h1
           className="css-jh9j72"
@@ -93,7 +93,7 @@ exports[`Characters snapshot testing renders correctly 1`] = `
             </button>
           </a>
         </footer>
-      </main>
+      </div>
     </div>
   </div>
 </div>
@@ -150,8 +150,8 @@ exports[`Characters snapshot testing renders correctly with data 1`] = `
           />
         </button>
       </div>
-      <main
-        style={{}}
+      <div
+        className="MuiBox-root css-0"
       >
         <h1
           className="css-jh9j72"
@@ -232,7 +232,7 @@ exports[`Characters snapshot testing renders correctly with data 1`] = `
             </button>
           </a>
         </footer>
-      </main>
+      </div>
     </div>
   </div>
 </div>
